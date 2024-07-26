@@ -12,7 +12,7 @@ local config = {
         { family = "Iosevka Nerd Font", scale=1.2, weight='Medium' },
         { family = "CaskaydiaCove Nerd Font", scale=1.0 },
     }),
-    text_background_opacity = 0.9,
+    text_background_opacity = 0.5,
 
     --Set background image
     window_background_image = 'C:/Users/vimcwin/.config/wezterm/MyBackgrounds/tokyo-road.jpg',
@@ -27,7 +27,7 @@ local config = {
         -- You can adjust the saturation also.
         saturation = 1.0,
     },
-    window_decorations = "RESIZE", --removes window buttons but with resizing
+    --window_decorations = "RESIZE", --removes window buttons but with resizing
     window_close_confirmation = "AlwaysPrompt",
     scrollback_lines = 3000,
     -- Retro Tab Bar Appearance
@@ -42,7 +42,7 @@ local config = {
         cursor_fg = "#011423",
         selection_bg = "#015391",
         selection_fg = "#CBE0F0",
-        ansi = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#0FC5ED", "#a277ff", "#24EAF7", "#24EAF7" },
+        ansi = { "#1f2335", "#ff757f", "#41a6b5", "#FFE073", "#0FC5ED", "#a277ff", "#24EAF7", "#24EAF7" },
         brights = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#A277FF", "#a277ff", "#24EAF7", "#24EAF7" },
         tab_bar = {
                 active_tab = {
