@@ -7,7 +7,7 @@ local config = {
     -- Spawn a fish shell in login mode
     default_prog = { 'wsl.exe', '-d', 'Debian', '--cd', '/home/vimcwsl' },
     --Set color scheme and fonts
-    --color_scheme = 'Tokyo Night',
+    color_scheme = 'Tokyo Night',
     font = wezterm.font_with_fallback({
         { family = "Iosevka Nerd Font", scale=1.2, weight='Medium' },
         { family = "CaskaydiaCove Nerd Font", scale=1.0 },
@@ -57,6 +57,15 @@ local config = {
     inactive_pane_hsb = {
         saturation = 0.7,
         brightness = 0.3,
+    },
+    -- Panes selection
+    pane_select_font_size=36, --Size letter selection
+
+    keys={
+      -- Show the selector, using your own alphabet
+      {key="p", mods="CTRL",
+       action=wezterm.action{PaneSelect={alphabet="hjklñuiop"}}
+      },
     },
 }
 
