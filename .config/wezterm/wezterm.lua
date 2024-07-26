@@ -5,7 +5,7 @@ local wezterm = require 'wezterm'
 if wezterm.config_builder then config = wezterm.config_builder() end
 local config = {
     -- Set color scheme and fonts
---    color_scheme = 'Tokyo Night',
+    color_scheme = 'Tokyo Night',
     color_scheme = 'Cobalt2',
     font = wezterm.font_with_fallback({
         { family = "Iosevka Nerd Font", scale=1.2 },
@@ -15,7 +15,7 @@ local config = {
 
     -- Set background image
     window_background_opacity = 0.6,
---    window_background_image = '/home/vimc/Pictures/desktop-backgrounds/tokyo-view.jpg',
+    --window_background_image = '/home/vimc/Pictures/desktop-backgrounds/tokyo-view.jpg',
     window_background_image_hsb = {
         -- Darken the background image by reducing it to 1/3rd-- Settings
         brightness = 0.1,
@@ -32,7 +32,7 @@ local config = {
     scrollback_lines = 3000,
     -- Retro Tab Bar Appearance
     use_fancy_tab_bar = false, -- style tab bar to retro
---    hide_tab_bar_if_only_one_tab = true,
+    hide_tab_bar_if_only_one_tab = true,
     tab_bar_at_bottom = true,
     colors = {
 	foreground = "#CBE0F0",
