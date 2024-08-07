@@ -29,6 +29,7 @@ vim.opt.incsearch = true
 -- Set colorscheme and syntax color
 vim.cmd('syntax on')
 vim.cmd('colorscheme wildcharm')
+vim.api.nvim_set_hl(0, 'Normal', { bg = 'NONE' })
 vim.cmd('hi Normal ctermbg=NONE')
 
 -- Enables mouse usage
