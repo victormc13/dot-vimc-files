@@ -14,7 +14,8 @@ alias gbr='git branch'
 alias gch='git checkout'
 alias gdf='git diff'
 # Alias to vimcStorage
-alias vimcs='cd /mnt/4846944129CAB88F'
+alias vimcs='cd /mnt/vimcStorage'
+alias vimcode='cd /mnt/vimcStorage/projects'
 
 # Rust
 . "$HOME/.cargo/env"
@@ -34,3 +35,18 @@ alias weztermc='cd ~/.config/wezterm/'
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
+
+PATH=~/.console-ninja/.bin:$PATH
+
+# Eza alias for ls command
+alias ls='eza --icons=always'
+
+# --- Zoxide (better cd command) ---
+eval "$(zoxide init bash)"
+alias cd='z'
+
+# fuzzy finder requires by Zoxide
+eval "$(fzf --bash)"
+
+# .AppImage apps
+export PATH=$PATH:/mnt/vimcStorage/AppImages/
