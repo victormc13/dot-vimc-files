@@ -49,5 +49,5 @@ alias cd='z'
 eval "$(fzf --bash)"
 
 # .AppImage apps
-export PATH=$PATH:~/AppImages/
-alias responsivelyapp='Responsively*.AppImage > /dev/null 2>&1 &'
+export PATH=$PATH:/mnt/vimcStorage/AppImages
+alias responsivelyapp='ResponsivelyApp-1.13.0.AppImage > /dev/null 2>&1 &'
