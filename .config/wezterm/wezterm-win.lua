@@ -4,7 +4,7 @@ local wezterm = require 'wezterm'
 if wezterm.config_builder then config = wezterm.config_builder() end
 
 local config = {
-    -- Spawn a fish shell in login mode
+    -- Spawn a wsl in login mode
     default_prog = { 'wsl.exe', '-d', 'Debian', '--cd', '/home/vimcwsl' },
     --Set color scheme and fonts
     color_scheme = 'Tokyo Night',
