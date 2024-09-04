@@ -4,6 +4,8 @@ local wezterm = require 'wezterm'
 -- This will hold the configuration.
 if wezterm.config_builder then config = wezterm.config_builder() end
 local config = {
+    -- Spawn a fish shell in login mode
+    default_prog = { '/usr/bin/fish', '-l' },
     -- Set color scheme and fonts
     color_scheme = 'Tokyo Night',
     color_scheme = 'Cobalt2',
@@ -14,7 +16,7 @@ local config = {
     text_background_opacity = 0.4,
 
     -- Set background image
-    window_background_opacity = 0.6,
+    window_background_opacity = 0.8,
     --window_background_image = '/home/vimc/Pictures/desktop-backgrounds/tokyo-view.jpg',
     window_background_image_hsb = {
         -- Darken the background image by reducing it to 1/3rd-- Settings
