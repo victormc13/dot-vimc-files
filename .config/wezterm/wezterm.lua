@@ -5,10 +5,10 @@ local wezterm = require 'wezterm'
 if wezterm.config_builder then config = wezterm.config_builder() end
 local config = {
     -- Spawn a fish shell in login mode
-    default_prog = { '/usr/bin/fish', '-l' },
+    -- default_prog = { '/usr/bin/fish', '-l' },
     -- Set color scheme and fonts
-    color_scheme = 'Tokyo Night',
-    color_scheme = 'Cobalt2',
+    color_scheme = 'Tokyo Night Storm (Gogh)',
+    -- color_scheme = 'Cobalt2',
     font = wezterm.font_with_fallback({
         { family = "Iosevka Nerd Font", scale=1.2 },
         { family = "CaskaydiaCove Nerd Font", scale=1.2 },
@@ -29,7 +29,7 @@ local config = {
         -- You can adjust the saturation also.
         saturation = 1.0,
     },
-    window_decorations = "RESIZE", --removes window buttons but with resizing
+    -- window_decorations = "RESIZE", --removes window buttons but with resizing
     window_close_confirmation = "AlwaysPrompt",
     scrollback_lines = 3000,
     -- Retro Tab Bar Appearance
@@ -44,8 +44,8 @@ local config = {
 	cursor_fg = "#011423",
 	selection_bg = "#015391",
 	selection_fg = "#CBE0F0",
-	ansi = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#0FC5ED", "#a277ff", "#24EAF7", "#24EAF7" },
-	brights = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#A277FF", "#a277ff", "#24EAF7", "#24EAF7" },
+	-- ansi = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#0FC5ED", "#a277ff", "#24EAF7", "#24EAF7" },
+	-- brights = { "#214969", "#E52E2E", "#44FFB1", "#FFE073", "#A277FF", "#a277ff", "#24EAF7", "#24EAF7" },
         tab_bar = {
                 active_tab = {
                     bg_color = '#0734BD',

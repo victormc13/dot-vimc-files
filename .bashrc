@@ -14,8 +14,9 @@ alias gbr='git branch'
 alias gch='git checkout'
 alias gdf='git diff'
 # Alias to vimcStorage
-alias vimcs='cd /mnt/vimcStorage'
-alias vimcode='cd /mnt/vimcStorage/projects'
+alias vimcs='cd /media/vimc/vimcStorage'
+alias vimcode='cd /media/vimc/vimcStorage/projects'
+alias vimcnotes='cd /media/vimc/vimcStorage/Animus-Notes'
 
 # Rust
 . "$HOME/.cargo/env"

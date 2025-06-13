@@ -7,8 +7,8 @@ vim.opt.showmatch = true
 
 -- Use spaces instead of tabs for indentation
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 
 -- Highlight current line
 vim.opt.cursorline = true
